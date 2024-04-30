@@ -3,6 +3,7 @@ import cors from "cors";
 //importamos la configuracion de la BD
 import BD from "../config/db.js";
 import Routes_Citas from "../routes/Routes_Citas.js";
+import Routes_Medicamentos from "../routes/Routes_Medicamentos.js";
 //Importamos el archivo de las rutas
 
 //definimos la variable app para trabajar con expres
@@ -10,6 +11,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 app.use("/citas", Routes_Citas);
+app.use("/medicamentos", Routes_Medicamentos);
 //app.use("/citas",);
 
 //Autenticacion BD

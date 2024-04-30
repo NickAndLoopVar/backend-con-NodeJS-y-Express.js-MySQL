@@ -74,4 +74,4 @@ _Este proyecto es un backend desarrollado en Node.js con Express.js, diseñado p
 
 - [Github @NickAndLoopVar](https://github.com/NickAndLoopVar)
 
-- [Repositorio](https://github.com/NickAndLoopVar/backend-con-NodeJS-y-Express.js)
+- [Repositorio](https://github.com/NickAndLoopVar/backend-con-NodeJS-y-Express.js-MySQL)
